@@ -1,0 +1,12 @@
+@import './assets/fonts/fonts.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-ranchwater: 'Ranchwater', system-ui, sans-serif;
+}
+
+.font-ranchwater {
+  font-family: var(--font-ranchwater);
+}
